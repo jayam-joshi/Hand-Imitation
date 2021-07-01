@@ -47,11 +47,11 @@ print(p.getEulerFromQuaternion([0,0,0,1]))
 
 while(1):
   
-  # p.setJointMotorControlArray(bodyIndex=hand1,               #fwd kinematics to set hand1 in an orientation
-  #                                   jointIndices=jointIdx,
-  #                                   controlMode=p.POSITION_CONTROL,
-  #                                   targetPositions=angles,
-  #                                   forces=[100, 100,100,100,100,100,100,100,100,100,100,100,100,100,100])
+  p.setJointMotorControlArray(bodyIndex=hand1,               #fwd kinematics to set hand1 in an orientation
+                                     jointIndices=jointIdx,
+                                     controlMode=p.POSITION_CONTROL,
+                                     targetPositions=angles,
+                                     forces=[100, 100,100,100,100,100,100,100,100,100,100,100,100,100,100])
   
   
   w, h = 3, 5;
